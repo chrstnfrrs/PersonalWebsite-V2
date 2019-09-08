@@ -1,9 +1,9 @@
 <template>
-  <!-- <div>
+  <div>
     <pageHeader title="About Me"> </pageHeader>
-    <aboutSection :header="sectionOne.header" :body="sectionOne.body"> </aboutSection>
-  </div> -->
-  <coming-soon></coming-soon>
+    <aboutSection v-for="item of items" v-bind:key="item.header" :header="item.header" :body="item.body"> </aboutSection>
+  </div>
+  <!-- <coming-soon></coming-soon> -->
 </template>
 
 <script>
@@ -14,10 +14,17 @@ import pageHeader from '~/components/pageHeader.vue'
 export default {
   data: function () {
     return {
-      sectionOne: {
-        header: 'My Journey with Vue',
-        body: "Body"
-      }
+      items: [
+        {
+          header: 'My Journey with Vue',
+          body: "Body"
+        },
+        {
+          header: 'My Journey with Vue',
+          body: "Body"
+        }
+      ]
+      
     }
   },
   components: {
