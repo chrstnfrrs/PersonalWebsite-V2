@@ -7,7 +7,7 @@
     </v-flex>
     <v-flex class="block" xs12 sm6>
       <h1>Hello, I'm Christian Farris. I'm a Computer Science student at UW-Madison.</h1>
-      <callToActionBtn> </callToActionBtn>
+      <callToActionBtn :text="actionText"> </callToActionBtn>
     </v-flex>
   </v-layout>
 </template>
@@ -18,6 +18,11 @@ import callToActionBtn from "~/components/callToActionBtn.vue"
 export default {
   components: {
     callToActionBtn
+  },
+  data: function () {
+    return {
+      actionText: "View My Work"
+    }
   }
 }
 </script>
@@ -40,6 +45,7 @@ h1{
   width: 100%;
 }
 .myImage {
+  border-radius: 2px;
   object-fit: cover;
   object-position: 60% 50%;
 

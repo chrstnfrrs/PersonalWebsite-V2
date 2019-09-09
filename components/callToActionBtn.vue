@@ -2,11 +2,19 @@
   <div>
     <nuxt-link to="/projects">
       <button>
-        View My Work
+        {{text}}
       </button>
       </nuxt-link>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    text: String
+  }
+}
+</script>
 
 <style lang="scss">
   button{
