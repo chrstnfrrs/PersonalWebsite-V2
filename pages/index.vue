@@ -1,12 +1,12 @@
 <template>
-  <v-layout class="myLayout" row wrap>
+  <v-layout class="indexLayout" row wrap>
     <v-flex class="block" xs12 sm6>
-      <div class="imageBlock">
-        <img class="myImage" src="~/assets/images/sample.jpg" >
-      </div>
+      <v-card class="imageBlock">
+        <v-img class="myImage" :src="images.sample" > </v-img>
+      </v-card>
     </v-flex>
     <v-flex class="block" xs12 sm6>
-      <h1>Hello, I'm Christian Farris. I'm a Computer Science student at UW-Madison.</h1>
+      <h1 class="indexText">Hello, I'm Christian Farris. I'm a Computer Science student at UW-Madison.</h1>
       <callToActionBtn :text="actionText"> </callToActionBtn>
     </v-flex>
   </v-layout>
@@ -21,7 +21,10 @@ export default {
   },
   data: function () {
     return {
-      actionText: "View My Work"
+      actionText: "View My Work",
+      images: {
+        sample: require('~/assets/images/sample.jpg')
+      }
     }
   }
 }
@@ -29,10 +32,10 @@ export default {
 
 <style lang="scss">
 h1{
-    font-weight: 300;
-    font-size: 48px;
+  font-weight: 300;
+  font-size: 48px;
 }
-.myLayout{
+.indexLayout{
   padding-top: 60px;
   height: 100%;
 }
@@ -56,5 +59,8 @@ h1{
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.indexText{
+  text-align: left;
 }
 </style>

@@ -4,18 +4,19 @@
       Coming Soon!
     </h1>
     <h2>
-      This page is still in production.
+      No posts available
     </h2>
     <p>
-      With multiple projects going on at the same time, I have not been able to finish this page as of now. 
-      Check back in the next few days and it should be deployed!
+      With multiple projects going on at the same time, I have not been able to finish a blog post as of yet. 
+      Check back in the next few weeks and I should have a post about my experience interning at Kohls throughout 
+      the summer of 2019 up!
     </p>
   </div>
 </template>
 
 <style lang="scss">
   .comingSoonContainer{
-    margin-top: 60px;
+    margin-top: 20px;
   }
   h1{
     font-size: 48px;
