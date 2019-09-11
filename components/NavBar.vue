@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <div id="nameTitle">
+    <!-- <div id="nameTitle">
       <nuxt-link to="/">Christian Farris</nuxt-link>
-    </div>
+    </div> -->
     <div id="navLinksContainer">
       <nuxt-link to="/" class="navLink">Home</nuxt-link>
       <nuxt-link to="/blog" class="navLink">Blog</nuxt-link>
@@ -34,8 +34,9 @@ nav a {
 #navLinksContainer {
   width: auto;
   display: inline-block;
-  float: right;
-  padding-right: 30px;
+  // float: right;
+  // padding-right: 30px;
+  padding-left: 10%;
 
 }
 .navLink {
