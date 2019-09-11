@@ -1,8 +1,8 @@
 <template>
-  <v-flex xs12 sm12 md6 lg6 xl4>
+  <v-flex xs12 sm12 md6 lg6 xl3>
     <!-- <v-hover>
       <template v-slot="{ hover }"> -->
-        <v-card color="#020205" elevation="2" class="myCard">
+        <v-card color="#020205" elevation="2" max-width="350px" class="myCard">
         <!-- <div class="myCard elevation-2"> -->
         <!-- <div
           :class="`elevation-${hover ? 24 : 6}`"
