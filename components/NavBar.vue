@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <v-toolbar color="#020205">
     <!-- <div id="nameTitle">
       <nuxt-link to="/">Christian Farris</nuxt-link>
     </div> -->
@@ -9,7 +9,7 @@
       <nuxt-link to="/projects" class="navLink">Projects</nuxt-link>
       <nuxt-link to="/about" class="navLink"><a href="/about">About</a></nuxt-link>
     </div>
-  </nav>
+  </v-toolbar>
 </template>
 
 <style lang="scss">
@@ -20,10 +20,6 @@ nav {
   line-height: 60px;
   vertical-align: middle;
   font-size: 18px;
-  
-}
-nav a {
-  color: #EEEEEE;
 }
 #nameTitle {
   display: inline;
@@ -41,5 +37,7 @@ nav a {
 }
 .navLink {
   padding-left: 6px;
+  color: #EEEEEE;
+  text-decoration: none;
 }
 </style>
