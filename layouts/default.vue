@@ -45,4 +45,11 @@ a{
   margin-left: 10%;
   padding: 0;
 }
+@media (min-width: 1904px) {
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1904px; 
+  }
+}
 </style>
