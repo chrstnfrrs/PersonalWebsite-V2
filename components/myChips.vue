@@ -16,9 +16,9 @@ export default {
       items: this.tags
     }
   },
-  mounted() {
-    console.log(`Tags ${this.tags}`);
-  },
+  // mounted() {
+  //   console.log(`Tags ${this.tags}`);
+  // },
   components: {
     aChip
   }

@@ -22,10 +22,10 @@ export default {
 
 <style lang="scss">
   .aboutBody-1{
-    width: 75%;
+    width: 100%;
     text-align: left;
     padding-bottom: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     border-bottom: 3px solid #EEEEEE;
   }
   .aboutBody-2{

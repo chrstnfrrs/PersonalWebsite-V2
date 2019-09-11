@@ -20,7 +20,7 @@ export default {
 <style lang="scss">
   .chip{
     display: inline;
-    margin: 4px;
+    // margin: 4px;
     height: 23px;
   }
   .chipUIUX{

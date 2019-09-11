@@ -26,8 +26,8 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Bentham&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
 html {
-  background-color: #0F0F0F;
-  color: #EEEEEE;
+  background-color: #EEEEEE;
+  color: #000000;
   font-family: 'Lato', sans-serif
 }
 body {
@@ -37,7 +37,6 @@ body {
 }
 a{
   text-decoration: none;
-  color: #EEEEEE;
 }
 .myContainer {
   width: 80%;

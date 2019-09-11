@@ -14,11 +14,15 @@ export default {
 
 <style lang="scss">
   .myLayout{
-    padding-top: 60px;
+    padding-top: 20px;
     height: 100%;
+    width: 100%;
+    padding-bottom: 10px;
   } 
   h1{
+    text-align: center;
     font-weight: 300;
+    width: 100%;
     font-size: 48px;
   }
 </style>

@@ -1,15 +1,20 @@
 <template>
   <div>
     <nuxt-link to="/projects">
-      <button>
+      <v-btn :tile='value'>
         {{text}}
-      </button>
+      </v-btn>
       </nuxt-link>
   </div>
 </template>
 
 <script>
 export default {
+  data: function () {
+    return {
+      value: true
+    }
+  },
   props: {
     text: String
   }
@@ -22,7 +27,7 @@ export default {
     margin-left: 10px;
     padding: 10px;
     font-size: 20px;
-    border: 1px solid #EEEEEE;
-    color: #EEEEEE;
+    border: 1px solid #020205;
+    color: #020205;
   }
 </style>
