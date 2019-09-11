@@ -40,4 +40,9 @@ nav {
   color: #EEEEEE;
   text-decoration: none;
 }
+.navLink:visited {
+  padding-left: 6px;
+  color: #EEEEEE;
+  text-decoration: none;
+}
 </style>
