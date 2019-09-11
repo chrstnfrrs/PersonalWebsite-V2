@@ -27,6 +27,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
 html {
   background-color: #EEEEEE;
+  
   color: #000000;
   font-family: 'Lato', sans-serif
 }
