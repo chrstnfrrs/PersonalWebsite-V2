@@ -30,7 +30,7 @@ export default {
         // },
         {
           header: 'Contact Me',
-          body: 'I routinely post stuff about my life on my life, development, and design on various social platforms. Check them out if you want to know more! Or if you just want to get in touch, send me an email.',
+          body: 'I routinely post stuff about my life, development, and design on various social platforms. Check them out if you want to know more! Or if you just want to get in touch, send me an email.',
           myClass: "aboutBody-1"
 
         }
