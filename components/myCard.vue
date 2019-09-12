@@ -9,7 +9,7 @@
           class="mx-auto pa-6 transition-swing"
         > -->
           <div class="cardImage">
-            <img class="portImage" src="~/assets/images/test.jpg" >
+            <v-img class="portImage" :src="img" ></v-img>
           </div>
           <div class="cardText">
             <div class="cardHeader">
@@ -36,7 +36,8 @@ export default {
   props: {
     title: String,
     tags: Array,
-    description: String
+    description: String,
+    img: String
   },
   data: function () {
     return {
