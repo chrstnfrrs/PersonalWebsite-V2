@@ -25,7 +25,7 @@ export default {
           title: 'Erin Tallard Fitness',
           tags: ['UI/UX', 'Vue.js'],
           description: 'The platform utilized by Erin Tallard Fitness to help and advocate for individuals to strive for practical and sustainable fit lifestyles.',
-          image: "https://i.imgur.com/MpZ67ir.jpg"
+          image: "https://i.imgur.com/jtVkYpZ.jpg"
         },
         {
           title: 'Personal Site - V2',
@@ -49,7 +49,7 @@ export default {
           title: 'Research Grants Database',
           tags: ['Rails', 'UI/UX'],
           description: 'Web application to submit and reward research grants.',
-          image: "https://i.imgur.com/limROcK.jpg"
+          image: "https://i.imgur.com/iynP9L1.jpg"
         },
         {
           title: 'GadCalc',
