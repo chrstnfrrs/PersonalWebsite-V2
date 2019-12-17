@@ -20,67 +20,39 @@ export default {
 <style lang="scss">
   .chip{
     display: inline;
-    // margin: 4px;
     height: 23px;
   }
-  .chipUIUX{
+  @mixin myChip{
     padding: 5px;
     font-weight: 500;
     font-size: .6em;
     display: inline;
     border: 1px solid;
     border-radius: 5px;
-    background-color: #00294B;
     color: #EEEEEE; 
+  }
+  .chipUIUX{
+    @include myChip();
+    background-color: #00294B;
   }
   .chipAndroid{
-    padding: 5px;
-    font-weight: 500;
-    font-size: .6em;
-    display: inline;
-    border: 1px solid;
-    border-radius: 5px;
+    @include myChip();
     background-color: #004B1A;
-    color: #EEEEEE; 
   }
   .chipRails{
-    padding: 5px;
-    font-weight: 500;
-    font-size: .6em;
-    display: inline;
-    border: 1px solid;
-    border-radius: 5px;
+    @include myChip();
     background-color: #4B0000;
-    color: #EEEEEE; 
   }
   .chipBase{
-    padding: 5px;
-    font-weight: 500;
-    font-size: .6em;
-    display: inline;
-    border: 1px solid;
-    border-radius: 5px;
+    @include myChip();
     background-color: #31004B;
-    color: #EEEEEE; 
   }
   .chipVue{
-    padding: 5px;
-    font-weight: 500;
-    font-size: .6em;
-    display: inline;
-    border: 1px solid;
-    border-radius: 5px;
+    @include myChip();
     background-color: #34495E;
-    color: #EEEEEE; 
   }
   .chipJava{
-    padding: 5px;
-    font-weight: 500;
-    font-size: .6em;
-    display: inline;
-    border: 1px solid;
-    border-radius: 5px;
+    @include myChip();
     background-color: #643A00;
-    color: #EEEEEE; 
   }
 </style>

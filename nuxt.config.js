@@ -1,4 +1,11 @@
 import colors from 'vuetify/es5/util/colors'
+import sanityClient from './sanityClient'
+
+const routesQuery = `
+  {
+    "posts": *[_type == "post"]
+  }
+`
 
 export default {
   mode: 'universal',
@@ -70,6 +77,15 @@ export default {
           success: colors.green.accent3
         }
       }
+    }
+  },
+  generate: {
+    routes: () => {
+      return sanityClient.fetch(routesQuery).then(res => {
+        return [
+          ...res.sessions.map(item => `/blog/${item.slug.current}`)
+        ]
+      })
     }
   },
   /*
